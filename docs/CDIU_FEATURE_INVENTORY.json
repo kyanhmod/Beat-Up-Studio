@@ -1,0 +1,520 @@
+[
+  {
+    "id": "AMenu",
+    "label": "File",
+    "declaration_line": 1338,
+    "handler_line": null,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "NewFile",
+    "label": "New File",
+    "declaration_line": 1340,
+    "handler_line": 2527,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "openmusic",
+    "label": "Open Music",
+    "declaration_line": 1344,
+    "handler_line": 2511,
+    "status": "Implemented: choose audio in player/editor"
+  },
+  {
+    "id": "OpenSlk",
+    "label": "Open Slk File",
+    "declaration_line": 1347,
+    "handler_line": 2552,
+    "status": "Implemented: player File menu, editor Open SLK, Ctrl+O and drag/drop"
+  },
+  {
+    "id": "SaveSlkButton",
+    "label": "Save As Slk",
+    "declaration_line": 1351,
+    "handler_line": 2682,
+    "status": "Implemented: native SLK edited-copy export / Save as"
+  },
+  {
+    "id": "OpenKbe",
+    "label": "Open Kbe File",
+    "declaration_line": 1355,
+    "handler_line": 2645,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SaveKbe",
+    "label": "Save As Kbe",
+    "declaration_line": 1359,
+    "handler_line": 2696,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "OpenDdr",
+    "label": "Open Ddr File",
+    "declaration_line": 1363,
+    "handler_line": 2614,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SaveDdr",
+    "label": "Save As Ddr",
+    "declaration_line": 1367,
+    "handler_line": 2710,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "OpenCbe",
+    "label": "Open Cbe File",
+    "declaration_line": 1371,
+    "handler_line": 2583,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SaveCbe",
+    "label": "Save As Cbe",
+    "declaration_line": 1375,
+    "handler_line": 2724,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "HighSave",
+    "label": "Advance Save",
+    "declaration_line": 1379,
+    "handler_line": 2496,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "CheckError",
+    "label": "Check Error Form Slk",
+    "declaration_line": 1383,
+    "handler_line": 1691,
+    "status": "Partial: event/finish/duplicate validation; Cdiu full rule set remains"
+  },
+  {
+    "id": "SaveAsCbg",
+    "label": "Save As Game File",
+    "declaration_line": 1386,
+    "handler_line": 2003,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "LoadAutoSave",
+    "label": "Load Temporary Save",
+    "declaration_line": 1390,
+    "handler_line": 1858,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "BMenu",
+    "label": "Setting",
+    "declaration_line": 1394,
+    "handler_line": null,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "setting",
+    "label": "Default Setting",
+    "declaration_line": 1397,
+    "handler_line": 2774,
+    "status": "Partial: independent persistent music/effect volume + BPM/native offset controls"
+  },
+  {
+    "id": "ProSetting",
+    "label": "Advance Setting",
+    "declaration_line": 1401,
+    "handler_line": 2789,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "CMenu",
+    "label": "Music Player",
+    "declaration_line": 1406,
+    "handler_line": null,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ShowOrHide",
+    "label": "Toggle Menu On / Off",
+    "declaration_line": 1409,
+    "handler_line": 2803,
+    "status": "Implemented editor/player and transport visibility controls"
+  },
+  {
+    "id": "PlayOrStop",
+    "label": "Play",
+    "declaration_line": 1413,
+    "handler_line": 2676,
+    "status": "Implemented explicit Play/Pause/Resume with separate seekable transport"
+  },
+  {
+    "id": "EndSong",
+    "label": "Stop",
+    "declaration_line": 1416,
+    "handler_line": 2166,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "PlaySpace",
+    "label": "Only Play Music Form This Space",
+    "declaration_line": 1419,
+    "handler_line": 2160,
+    "status": "Partial: preview from editor cursor with one-beat lead-in; Space-only looping remains"
+  },
+  {
+    "id": "dmenu",
+    "label": "Mode",
+    "declaration_line": 1423,
+    "handler_line": null,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SetNormalMode",
+    "label": "Classic Mode",
+    "declaration_line": 1426,
+    "handler_line": 2738,
+    "status": "Partial: horizontal tick editor, dedicated Space/Finish rows"
+  },
+  {
+    "id": "SetSeeMode",
+    "label": "AutoPlay Mode",
+    "declaration_line": 1429,
+    "handler_line": 2758,
+    "status": "Implemented player autoplay; editor follow playback remains"
+  },
+  {
+    "id": "SetGameMode",
+    "label": "Game Mode",
+    "declaration_line": 1433,
+    "handler_line": 2766,
+    "status": "Implemented; accepted input feel preserved"
+  },
+  {
+    "id": "emenu",
+    "label": "Function",
+    "declaration_line": 1437,
+    "handler_line": null,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "AutoSpace16",
+    "label": "Auto Spaces (16 Beats)",
+    "declaration_line": 1440,
+    "handler_line": 2074,
+    "status": "Implemented selected-range generation every 16 ticks"
+  },
+  {
+    "id": "AutoSpace24",
+    "label": "Auto Spaces (24 Beats)",
+    "declaration_line": 1443,
+    "handler_line": 2080,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "AutoSpace32",
+    "label": "Auto Spaces (32 Beats)",
+    "declaration_line": 1446,
+    "handler_line": 2087,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "AutoSpace48",
+    "label": "Auto Spaces (48 Beats)",
+    "declaration_line": 1449,
+    "handler_line": 2094,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "DelSpace",
+    "label": "Del After Spaces Form This Space",
+    "declaration_line": 1452,
+    "handler_line": 2134,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SpaceOut16",
+    "label": "Move Spaces (16 Beats) Form This Space",
+    "declaration_line": 1455,
+    "handler_line": 2154,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "AllRandomKey",
+    "label": "All Notes To Random",
+    "declaration_line": 1458,
+    "handler_line": 1982,
+    "status": "Implemented for selected range; select full range for all events"
+  },
+  {
+    "id": "LRRandomKey",
+    "label": "All Notes To Left Right Random",
+    "declaration_line": 1461,
+    "handler_line": 1975,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "KeyLeft",
+    "label": "Shift Notes Left",
+    "declaration_line": 1464,
+    "handler_line": 1989,
+    "status": "Implemented for selected range; select full range for all events"
+  },
+  {
+    "id": "KeyRight",
+    "label": "Shift Notes Right",
+    "declaration_line": 1467,
+    "handler_line": 1996,
+    "status": "Implemented for selected range; select full range for all events"
+  },
+  {
+    "id": "AllKeyOne",
+    "label": "All Note To Be 1",
+    "declaration_line": 1470,
+    "handler_line": 2060,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "DelAllNote",
+    "label": "Del All Notes",
+    "declaration_line": 1473,
+    "handler_line": 1708,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "RxMove",
+    "label": "Toggle Grid",
+    "declaration_line": 1476,
+    "handler_line": 1968,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "fmenu",
+    "label": "Edit",
+    "declaration_line": 1480,
+    "handler_line": null,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "CutButton",
+    "label": "Cut",
+    "declaration_line": 1483,
+    "handler_line": 2120,
+    "status": "Implemented selected tick range; lane-specific rectangle selection remains"
+  },
+  {
+    "id": "CopyButton",
+    "label": "Copy",
+    "declaration_line": 1486,
+    "handler_line": 2100,
+    "status": "Implemented internal clipboard; legacy BBQ clipboard bridge remains"
+  },
+  {
+    "id": "PushUpButton",
+    "label": "Paste",
+    "declaration_line": 1489,
+    "handler_line": 2140,
+    "status": "Implemented internal paste"
+  },
+  {
+    "id": "DelButton",
+    "label": "Delete",
+    "declaration_line": 1492,
+    "handler_line": 2127,
+    "status": "Implemented selected event deletion"
+  },
+  {
+    "id": "UnDo",
+    "label": "UnDo",
+    "declaration_line": 1495,
+    "handler_line": 2822,
+    "status": "Implemented 100-step undo + redo"
+  },
+  {
+    "id": "AutoFillAll",
+    "label": "Auto Fill It All",
+    "declaration_line": 1498,
+    "handler_line": 2067,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SomeKeyRandom",
+    "label": "Selects Notes Random",
+    "declaration_line": 1501,
+    "handler_line": 2039,
+    "status": "Implemented direction randomization preserving chord count"
+  },
+  {
+    "id": "SomeKeyLRRandom",
+    "label": "Selects Notes Left Right Random",
+    "declaration_line": 1504,
+    "handler_line": 2046,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SomeKeyLeft",
+    "label": "Shift Selects Notes Left",
+    "declaration_line": 1507,
+    "handler_line": 2113,
+    "status": "Implemented selected tick shift -1"
+  },
+  {
+    "id": "SomeKeyRight",
+    "label": "Shift Selects Notes Right",
+    "declaration_line": 1510,
+    "handler_line": 2106,
+    "status": "Implemented selected tick shift +1"
+  },
+  {
+    "id": "SomeKeyBeOne",
+    "label": "Selects Note To Be 1",
+    "declaration_line": 1513,
+    "handler_line": 2053,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "gmenu",
+    "label": "Paragraph",
+    "declaration_line": 1517,
+    "handler_line": null,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "gshow",
+    "label": "Toggle Menu On / Off",
+    "declaration_line": 1520,
+    "handler_line": 1835,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "MapMenu",
+    "label": "Map",
+    "declaration_line": 1524,
+    "handler_line": null,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack1",
+    "label": "Hip Hop Avenue",
+    "declaration_line": 1526,
+    "handler_line": 1743,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack2",
+    "label": "Lafesta",
+    "declaration_line": 1529,
+    "handler_line": 1749,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack3",
+    "label": "Han Jang Park",
+    "declaration_line": 1532,
+    "handler_line": 1755,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack4",
+    "label": "E251C",
+    "declaration_line": 1535,
+    "handler_line": 1761,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack5",
+    "label": "Kwang Hwa Mun",
+    "declaration_line": 1538,
+    "handler_line": 1767,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack6",
+    "label": "Forbidden City",
+    "declaration_line": 1541,
+    "handler_line": 1773,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack7",
+    "label": "Halloween Stage",
+    "declaration_line": 1544,
+    "handler_line": 1779,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack8",
+    "label": "Guitar Stage",
+    "declaration_line": 1547,
+    "handler_line": 1785,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack9",
+    "label": "Snow Valley",
+    "declaration_line": 1550,
+    "handler_line": 1791,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "ChangeBack11",
+    "label": "Basic House",
+    "declaration_line": 1553,
+    "handler_line": 1685,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SetByUser",
+    "label": "User Setting",
+    "declaration_line": 1556,
+    "handler_line": 2017,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "HighAdmin",
+    "label": "Admin",
+    "declaration_line": 1560,
+    "handler_line": 2903,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SetLanguage",
+    "label": "Language",
+    "declaration_line": 1564,
+    "handler_line": null,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SetChinese",
+    "label": "Chinese",
+    "declaration_line": 1566,
+    "handler_line": 2023,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "SetEnglish",
+    "label": "English",
+    "declaration_line": 1569,
+    "handler_line": 2031,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "NetWork",
+    "label": "NetWork",
+    "declaration_line": 1573,
+    "handler_line": 1882,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "MakeItUp",
+    "label": "合成",
+    "declaration_line": 1577,
+    "handler_line": 2745,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  },
+  {
+    "id": "MakeItOut",
+    "label": "拆開",
+    "declaration_line": 1581,
+    "handler_line": 2752,
+    "status": "Pending: inspect/port, or identify UI-only group"
+  }
+]
